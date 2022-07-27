@@ -49,6 +49,7 @@ Read and deserialize rosbag2 messages:
 Convert rosbag1 to rosbag2::
 
    # Convert "foo.bag", result will be "foo/"
+   . venv/bin/activate
    rosbags-convert foo.bag
 
    # Convert "foo.bag", save the result as "bar"
